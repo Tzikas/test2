@@ -2,13 +2,21 @@ import path from 'path';
 import merge from 'lodash/merge';
 
 // Default configuations applied to all environments
+console.log('banana');
+console.log(process.env.NODE_ENV)
+/*
+ * test: process.env.NODE_ENV === 'test',
+      development: process.env.NODE_ENV === 'development',
+      production: process.env.NODE_ENV === 'production',
+*/
+
 const defaultConfig = {
   env: process.env.NODE_ENV,
   get envs() {
     return {
-      test: process.env.NODE_ENV === 'test',
-      development: process.env.NODE_ENV === 'development',
-      production: process.env.NODE_ENV === 'production',
+      test: false,
+      development: true,
+      production: false,
     };
   },
 
