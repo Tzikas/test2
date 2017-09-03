@@ -5,4 +5,7 @@ const ScoreSchema = new mongoose.Schema({
 	name: String
 });
 
-module.exports = mongoose.model('Score', ScoreSchema);
+
+const Score = mongoose.model('Score', ScoreSchema);
+
+export default Score;
