@@ -4,7 +4,7 @@
   "description": "Boilerplate project for a restful node backend server powered by ES6 and Express",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon"
+    "start": "node index.js"
   },
   "engines": {
     "node": ">= 6",
