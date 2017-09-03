@@ -1,4 +1,4 @@
-import Score from '../models/Score';
+import Score from './models/Score';
 
 class ScoreController {
   topscores = async (req, res, next) => {

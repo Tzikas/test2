@@ -5,8 +5,8 @@ import { Router } from 'express';
 // import UsersController from './controllers/users.controller';
 // import PostsController from './controllers/posts.controller';
 
-import CityController from '../controllers/city-controller';
-import ScoreController from '../controllers/score-controller';
+import CityController from './controllers/city-controller';
+import ScoreController from './controllers/score-controller';
 
 // import authenticate from './middleware/authenticate';
 // import accessControl from './middleware/access-control';
